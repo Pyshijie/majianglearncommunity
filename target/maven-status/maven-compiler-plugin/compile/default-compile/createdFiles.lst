@@ -1,0 +1,3 @@
+com\majianglearn\majiangcommunity\dto\AccessTokenDTO.class
+com\majianglearn\majiangcommunity\provider\GitHubProvider.class
+com\majianglearn\majiangcommunity\controller\AuthorizeController.class
