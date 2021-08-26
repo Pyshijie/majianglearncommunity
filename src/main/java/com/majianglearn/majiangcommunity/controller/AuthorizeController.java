@@ -23,7 +23,7 @@ public class AuthorizeController {
         accessTokenDTO.setState(state);
         accessTokenDTO.setRedirect_uri("http://localhost:8887/callback");
         String accessToken = gitHubProvider.getAccessToken(accessTokenDTO);
-//        System.out.println(accessToken);
+        System.out.println(accessToken);
         GitHubUserDTO user = gitHubProvider.getUser(accessToken);
         System.out.println(user.getLogin());
         return "index";
